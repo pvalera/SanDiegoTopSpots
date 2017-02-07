@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 5cm;
+  margin-right: 5cm;
+}
+
+h1 {
+  border-bottom: 1px solid #D5D8DC;
+  padding-bottom: 10px
+}
+
+td {
+  padding: 5px;
+  border-top: 1px solid #D5D8DC;
+}
+
+th {
+  padding-bottom: 10px
+}
+
+.mapButton {
+  background-color: #2471A3;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: white;
+  font-size: 100%;
+  height: 30px;
+  width: 130px;
+}
+
+.table {
+  font-size: 70%;
+  border-collapse: collapse;
+}
+
+/*  Define the background color for all the EVEN background rows  */
+.table tr:nth-child(even) {
+  background: #EFEFEF;
+}
